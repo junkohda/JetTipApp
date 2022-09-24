@@ -216,7 +216,7 @@ fun BillForm(modifier: Modifier = Modifier,
                                     tipPercentage = tipPercentage)
                         },
                         modifier = Modifier.padding(start = 16.dp, end = 16.dp),
-                        steps = 5,
+                        steps = 100,
                         onValueChangeFinished = {
 
                         })
